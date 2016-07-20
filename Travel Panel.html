@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Here's the Google Maps API link.
+  https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&avoid=tolls&origins=301+W+Park+Lane,+hampton,+VA&destinations=707+Linkhorn+Drive,+Virginia+Beach,VA+|+gloucester,va+|+portsmouth,va+|+williamsburg,va+|+808+forest+glade+drive,+chesapeake,+va|norfolk,+va&key=AIzaSyAQ8HGSoFIgy8hA1NinaNg7OWTZ08ttC_o
+
+  Todo:
+      -Integrate results from API into class=Time
+      -Test Refresh Rate
+      -Move files to external host
+-->
+
+<script>
+
+</script>
+<!--Table HTML-->
+<meta data-refresh-every-n-seconds="300"
+      application-name="Travel Time"
+      data-allows-resizing="YES"
+      data-default-size="8,4"
+      data-min-size="4,4"
+      data-max-size="8,8"
+      data-allows-scrolling="NO" />
+
+<style>
+  .location {
+	width: 400;
+    }
+  .time {
+	width: auto;
+    }
+</style>
+
+<table data-refresh-every-n-seconds="300">
+	<tr>
+		<th class="name">Location</th>
+		<th class="time">Time</th>
+	</tr>
+	<tr>
+		<td class="name">Va Beach</td>
+		<td class="time"></td>
+	</tr>
+	<tr>
+		<td class="name">Gloucester</td>
+		<td class="time"></td>
+	</tr>
+	<tr>
+		<td class="name">Portsmouth</td>
+		<td class="time"></td>
+	</tr>
+  	<tr>
+		<td class="name">W'burg</td>
+		<td class="time"></td>
+	</tr>
+  	<tr>
+		<td class="name">Chesapeake</td>
+		<td class="time"></td>
+	</tr>
+  	<tr>
+  		<td class="name">Norfolk</td>
+		<td class="time"></td>
+	</tr>
+</table>
+
+</html>
